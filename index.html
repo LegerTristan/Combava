@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/JVSC.js"></script>
+        <title>Combava - David's Lemonade</title>
+
+</head>
+
+<body>
+    <div id="page">
+    
+        <header>
+        	<img src="media/images/logoDavids.png" alt="Logo David's Lemonade"/>
+        	<h1>Combava</h1>
+        	<a class ="icon" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </header>
+        <nav>
+            <ul id="menulinks">
+                <li><a title='Accédez à la rubrique "Qui somme-nous ?"' href="#part1">Qui sommes-nous ?</a></li>
+                <li><a title='Accédez à la rubrique "La citronnade"' href="#part2">La citronnade</a></li>
+                <li><a title='Accédez à la rubrique "Nos événements"' href="#part3">Nos événements</a></li>
+                <li><a title='Accédez à la rubrique "Comment y participer ?"' href="#part4">Comment y participer ?</a></li>
+            </ul>
+
+
+        </nav>  
+
+        <section>
+            <article>
+
+            	<figure>
+	            	<img src="media/images/fruitfond.jpg" alt="Un fond avec des fruits sur une table"/>
+	            	<figcaption>
+	            		<h2 id="part1">Qui sommes-nous ?</h2>
+
+	            		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel luctus felis, ac vehicula turpis. Quisque at varius elit. Mauris ipsum lorem, lacinia id ultricies eu, mollis non ex. Proin magna massa, vehicula sit amet consectetur nec, mollis eu sem. Maecenas accumsan ac arcu vestibulum placerat. Proin sagittis tincidunt elit, et tempus quam maximus iaculis. Pellentesque dignissim risus rutrum orci laoreet mollis. </p>
+	            	</figcaption>
+            	</figure>
+            </article>
+
+            <article>
+
+            	<h2 id="part2">La citronnade</h2>
+
+            	<p>C'est bon ! C'est naturel ! C'est jaune ! C'est sphèrique ! C'est acide ! C'est dur ! C'est juteux !
+            	Ça pique sur la langue ! C'est peu chère ! C'est la nature qui offre !
+            	Ça commence par un C ! Ça se termine par un n ! C'est piquant ! Ça pétille sur la langue ! Y'a que 2 syllabes ! Tu peux faire des piles avec ! C'est un décontractant musculaire ! </p>
+
+            	<img class="citron" src="media/images/citronnier.jpg" alt="Citronnier"/>
+            	
+            </article>
+            
+            <article>
+            	<h2 id="part3">Nos événements</h2>
+
+            	<p>Des événements en l'honneur de la Sainte Citronnade sont organisés chaque mois à tel ou tel lieu/magasin, parfois en collaboration avec un local tel que Jeremy.
+				Découvrez ou partagez ce culte pour cette boisson rafraichissante et pleines de vitamines qui mêlera bien-être et bonne santé.
+				N'hésitez pas à nous rejoindre aux différents événements indiqués dans la liste ci-dessous : </p>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.999354945872!2d5.941575714947774!3d47.216594922831845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d66ab337a26a1%3A0xf62a3a0e0f796687!2sL&#39;Eau+Vive+Besan%C3%A7on!5e0!3m2!1sfr!2sfr!4v1557695274177!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            </article>
+           
+            <article>
+
+                <img class="jus" src="media/images/jus.jpeg" alt="Jus de citron"/>
+
+            	<h2 id="part4">Comment y participer ?</h2>
+
+            	<p>Vestibulum malesuada dapibus orci, interdum egestas diam consequat sit amet. Maecenas ipsum lectus, lobortis semper eros id, laoreet vulputate magna. Curabitur vel imperdiet sapien, sit amet malesuada dui. Suspendisse potenti. Ut ornare porta ultrices. Integer in fringilla augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at libero iaculis, blandit felis quis, ornare massa. Nunc id lorem a felis molestie viverra. Aenean facilisis, lorem a eleifend sagittis, nisi leo ornare magna, et tristique nunc augue mattis nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam feugiat nunc velit, in fermentum tortor tincidunt at. Quisque suscipit laoreet semper. Nunc quis tincidunt risus. Praesent dignissim neque ut eros accumsan porttitor. Praesent malesuada rhoncus mauris, quis tristique lectus placerat sit amet. </p>
+
+				<form id="poll" action="#" method="get">
+    				<h3></h3>
+        			<fieldset>
+		            	<legend>Formulaire d'inscription</legend>  <!-- Je ne sais pas ou mettre le titre formulaire d'inscription si c'est en h1 ou en legend-->
+
+		                <!--Et peut être qu'il faudra un petit paragraphe pour expliquer ce qui se passe a l'utilisateur-->
+		                <label for="Nom"> Nom :</label>
+		                <input id="Nom" name="Nom" type="text" size="25" placeholder="Devaux" required>
+		                     
+		                <label for="Prenom">Prénom :</label> 
+		                <input id="Prenom" name="Prenom" type="text" size="25" placeholder="Jean" required>
+		                
+		                <label for="Mail">Mail :</label>
+		                <input id="Mail" name="Mail" type="email" size="40" placeholder="jeandevaux@gmail.com" required>
+		               
+		                <label for="Tel">Téléphone :</label>    
+		                <input id="Tel" name="Tel" type="tel" size="10" placeholder="07xxxxxxxx" required>
+		                      
+		                <label for="département">Je suis étudiant au département : </label>
+		                <select id="département" required>
+		                    <option value="Besançon">L'eau Vive Besançon</option>
+		                    <option value="Rennes">Bio-Rennes</option>
+		                    <option value="Saint-Junien">Biocoop Saint-Junien</option>
+		                    <option value="Tourcoing">Artisans Du Monde Tourcoing</option>
+		                    <option value="Toulouse">AMAP Toulouse</option>
+		                    <option value="Paris">Canal Bio Paris</option>
+		                    <option value="Nancy">Bio c' Bon Nancy</option>
+		                    <option value="Valence">AMAP Le Goût Nature Bourg-les-Valence</option>
+		                </select>
+		                    
+		                <label for="case">En cochant cette case, j'accepte de recevoir des informations par mail.</label>      
+		                <input id="case" name="case" type="checkbox" value="ok">
+		                 
+		                <input type="submit" value="Confirmer">     
+        			</fieldset>
+				</form>
+            </article>
+
+            <h2>Un problème ? Besoin d'aide ? Contactez-nous !</h2>
+            <p>Mail de contact : XXX.XXXX@XXXX.com</p>
+        	<p>Tel de contact : XX XX XX XX XX</p>
+        </section>
+        <footer>
+        	<p>Année de mise en service</p>
+
+        	<div id = "logo">
+  		      	<img src="media/images/insta.png" alt="Logo d'Instagram"/>
+        		<img src="media/images/fb.png" alt="Logo de Facebook"/>
+        		<img src="media/images/twi.png" alt="Logo de Twitter"/>
+        	</div>
+
+        	<p>Copyright</p>
+        </footer>
+        
+    </div>
+</body>
+</html>
